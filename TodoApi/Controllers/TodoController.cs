@@ -25,10 +25,6 @@ namespace TodoApi.Controllers
             //}
         }
 
-        //public string Index()
-        //{
-        //    return "This is my <b>default</b> action...";
-        //}
 
         [HttpGet]
         public IEnumerable<TodoItem> GetAll()
